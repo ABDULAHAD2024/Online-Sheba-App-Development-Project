@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".D1">
+
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/blue">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back"
+                />
+
+            <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/textView"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ধোবাউড়া পরিচয়"
+                android:textStyle="bold"
+                android:fontFamily="@font/regular"
+                android:textSize="20sp"/>
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/regular"
+                android:text="অবস্থান ও আয়তন
+ধোবাউড়া উপজেলার উত্তরে ভারতের মেঘালয়, দক্ষিণে ফুলপুর উপজেলা ও নেত্রকোণা জেলার পূর্বধলা উপজেলা, পূর্বে নেত্রকোণা জেলার দুর্গাপুর উপজেলা, পশ্চিমে হালুয়াঘাট উপজেলা।
+
+প্রশাসনিক এলাকা
+ধোবাউড়া উপজেলায় বর্তমানে ৭টি ইউনিয়ন রয়েছে। সম্পূর্ণ উপজেলার প্রশাসনিক কার্যক্রম ধোবাউড়া থানার আওতাধীন।[২]
+
+ইউনিয়নসমূহ:
+১নং দক্ষিণ মাইজপাড়া
+২নং গামারিতলা
+৩নং ধোবাউড়া
+৪নং পোড়াকান্দুলিয়া
+৫নং গোয়াতলা
+৬নং ঘোষগাঁও
+৭নং বাঘবেড়
+ইতিহাস
+পুর্বে এর নাম ছিল জিক্কোয়া বাজার।ধোবাউড়া নামটি এসেছে ধোপা থেকে । বহু বছর আগে এই এলাকায় অনেক ধোপা বাস করত। কিন্তু কোন এক কারণে ধোপারা এই এলাকা ছেড়ে চলে যায় । আর তার পর থেকেই এই এলাকার নাম হয়েছে ধোবাউড়া। এই উপজেলায় রয়েছে গাড় পাহাড়। এখানে আছে সাদা মাটির পাহাড়। এই সব দেখতে সারা দেশ হতে প্রতিদিন অনেক লোক আসেন।
+
+শিক্ষা
+এই এলাকার শিক্ষা ব্যবস্থা তেমন উন্নত না। এখানে প্রাথমিক বিদ্যালয়, মাধ্যমিক বিদ্যালয়, উচ্চ মাধ্যমিক বিদ্যালয়, ও কিন্ডার গার্ডেন স্কুল আছে। ধোবাউড়া এলাকায় নারী শিক্ষায় অগ্রনী ভূমিকা পালন করে চলেছে ধোবাউড়া মহিলা ডিগ্রী কলেজ।
+
+অর্থনীতি
+প্রধান অর্থকারী ফসল ধান । অনেকেই মাছ চাষ করে জীবিকা নির্বাহ করেন । এখানে নানা পেশার লোকজন বসবাস করে । কৃষি কাজই এই এলাকার মানুষের জীবিকা নির্বাহের প্রধান উপায়।
+
+নদীসমূহ
+ধোবাউড়া উপজেলায় একটি নদী এবং একটি নদ আছে। সেগুলো হচ্ছে নিতাই নদী এবং কংস নদ।[৩][৪]
+
+উল্লেখযোগ্য ব্যক্তিত্ব
+তহুরা খাতুন, ফুটবল খেলোয়াড়
+মারিয়ামান্ডা, ফুটবল অধিনায়ক
+শিউলি আজিম, ফুটবলার
+সানজিদা আক্তার, ফুটবলার
+শামছুন্নাহার (ফুটবলার), ফুটবলার
+তথ্যসূত্র
+ বাংলাদেশ জাতীয় তথ্য বাতায়ন (জুন ২০১৪)। এক নজরে ধোবাউড়া । গণপ্রজাতন্ত্রী বাংলাদেশ সরকার। সংগ্রহের তারিখ ১০ জুলাই ২০১৫।[স্থায়ীভাবে অকার্যকর সংযোগ]
+            ইউনিয়নসমূহ - ধোবাউড়া উপজেলা। dhobaura.mymensingh.gov.bd। জাতীয় তথ্য বাতায়ন। ৩ ডিসেম্বর ২০২০ তারিখে মূল থেকে আর্কাইভ করা। সংগ্রহের তারিখ ১৬ ডিসেম্বর ২০২০।
+            ড. অশোক বিশ্বাস, বাংলাদেশের নদীকোষ, গতিধারা, ঢাকা, ফেব্রুয়ারি ২০১১, পৃষ্ঠা ৪০০, আইএসবিএন ৯৭৮-৯৮৪-৮৯৪৫-১৭-৯।
+            মানিক মোহাম্মদ রাজ্জাক (ফেব্রুয়ারি ২০১৫)। বাংলাদেশের নদনদী: বর্তমান গতিপ্রকৃতি। ঢাকা: কথাপ্রকাশ। পৃষ্ঠা ৬০৬। আইএসবিএন 984-70120-0436-4।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

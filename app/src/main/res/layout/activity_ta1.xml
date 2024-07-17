@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TA1">
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/blue">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back"
+                />
+
+            <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/textView"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="তারাকান্দা পরিচয়"
+                android:textStyle="bold"
+                android:fontFamily="@font/regular"
+                android:textSize="20sp"/>
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/regular"
+                android:text="উপজেলাটি ২০১৩ সালে ৩ জানুয়ারী প্রতিষ্ঠিত হয়।[তথ্যসূত্র প্রয়োজন] এর আগে এটি ফুলপুর উপজেলার অধীন একটি থানা ছিল যা ১৯ মে, ১৯৯৯ ইং তারিখে প্রতিষ্ঠিত হয়।[তথ্যসূত্র প্রয়োজন] উত্তর ময়মনসিংহে মরা খড়িয়া নদীর তীরে ময়মনসিংহ-ফুলপুর পাকা রাস্তার পাশে তারাকান্দা উপজেলা সদরের অবস্থান। তারাকান্দা উপজেলার আয়তন ৫৮৯ বর্গ কিলোমিটার।[তথ্যসূত্র প্রয়োজন] বর্তমানে এ উপজেলা ১০ টি ইউনিয়ন নিয়ে গঠিত।
+
+ভৌগোলিক পরিচিতি
+তারাকান্দা উপজেলার ভৌগোলিক অবস্থান উত্তর অক্ষাংশের ২৪°৯৫ এবং ৯০°৩৫' পূর্ব। রাংসা নদীর তীরে এ উপজেলা অবস্থিত। এ উপজেলার উত্তরে ফুলপুর উপজেলা, হালুয়াঘাট উপজেলা ও ধোবাউড়া উপজেলা, দক্ষিণে ময়মনসিংহ সদর উপজেলা, পূর্বে গৌরীপুর উপজেলা,পশ্চিমে শেরপুর জেলার নকলা উপজেলা। এই উপজেলার উল্লেখযোগ্য খাল হচ্ছে- কংশ খাল।
+
+প্রশাসনিক এলাকা
+তারাকান্দা উপজেলায় বর্তমানে ১০টি ইউনিয়ন রয়েছে। সম্পূর্ণ উপজেলার প্রশাসনিক কার্যক্রম তারাকান্দা থানার আওতাধীন।[২]
+
+ইউনিয়নসমূহ:
+১নং তারাকান্দা
+২নং বানিহালা
+৩নং কাকনী
+৪নং গালাগাঁও
+৫নং বালিখাঁ
+৬নং ঢাকুয়া
+৭নং রামপুর
+৮নং কামারিয়া
+৯নং কামারগাঁও
+১০নং বিসকা
+শিক্ষা ব্যবস্থা
+উপজেলায় ১১টি কলেজ, ৭৩টি মাধ্যমিক বিদ্যালয়, ১১৩টি সরকারি প্রাথমিক বিদ্যালয় রয়েছে।
+
+শিক্ষাপ্রতিষ্ঠান
+কলেজ
+সরকারী বঙ্গবন্ধু ডিগ্রী কলেজ
+ফজলুল হক চৌধুরী মহিলা কলেজ
+এইচ এ ডিজিটাল স্কুল এন্ড কলেজ
+শেখ মুজিব কলেজ
+চান্দপুর ডিগ্রী কলেজ
+
+মাদ্রাসা
+কুটুরাগাঁও ইউসুফিয়া ফাজিল মাদ্রাসা।
+ভাটিয়াপাড়া দাখিল মাদ্রাসা
+মাধ্যমিক বিদ্যালয়
+তারাকান্দা বহুমুখী উচ্চ বিদ্যালয়
+তালদিঘী উচ্চ বিদ্যালয়
+কাকনী মডেল একাডেমি
+বকশিমুল উচ্চ বিদ্যালয় ও কলেজ
+গোপালপুর উচ্চ বিদ্যালয়
+তারাকান্দা রেসিডেন্সিয়াল মডেল স্কুল
+চরপাড়া উচ্চ বিদ্যালয়
+চাড়িয়া বালিকা উচ্চ বিদ্যালয়
+বাট্টা মিলন বহুমূখী উচ্চ বিদ্যালয়
+চাড়িয়া উচ্চ বিদ্যালয়
+গালাগাঁও উচ্চ বিদ্যালয়
+বাট্টাবাট পাড়া উচ্চ বিদ্যালয়
+আশ্বিয়া উচ্চ বিদ্যালয়
+চান্দপুর উচ্চ বিদ্যালয়
+বিসকা আনির উদ্দিন নিম্ন মাধ্যমিক বিদ্যালয়
+ঢাকির কান্দা হাবিবুর রহমান উচ্চ বিদ্যালয়
+দর্শনীয় স্থান
+হলোই বিল
+আইলী বিল
+অর্থনীতি
+উল্লেখযোগ্য ব্যক্তিত্ব
+শরীফ আহমেদ, বাংলাদেশের একজন রাজনীতিবিদ, গৃহায়ন ও গণপূর্ত প্রতিমন্ত্রী
+এম শামসুল হক, ভাষা সৈনিক, রাজনীতিবিদ ও মুক্তিযুদ্ধের সংগঠক যিনি (একুশে পদক প্রাপ্ত)
+আবুল ফাতাহ মুহাম্মদ ইয়াহইয়া, ইসলামি পণ্ডিত ও লেখক
+শহিদুল্লাহ ফরায়জী- গীতিকার ও সুরকার।,
+রফিকুল ইসলাম তাওহিদ- গীতিকার ও সাহিত্যিক।
+বিবিধ
+পত্র পত্রিকা
+মাসিক কালের আলো, মাসিক নবদিগন্ত, পাক্ষিক তারাকান্দা, দৈনিক সকালের দুনিয়া।
+
+আরও দেখুন
+ময়মনসিংহ জেলা
+ময়মনসিংহ বিভাগ
+বাংলাদেশের উপজেলাসমূহ
+তথ্যসূত্র
+ বাংলাদেশ জাতীয় তথ্য বাতায়ন (জুন ২০১৪)। এক নজরে তারাকান্দা । গণপ্রজাতন্ত্রী বাংলাদেশ সরকার। সংগ্রহের তারিখ ৩১ ডিসেম্বর ২০১৪।[স্থায়ীভাবে অকার্যকর সংযোগ]
+             ইউনিয়নসমূহ - তারাকান্দা উপজেলা । tarakanda.mymensingh.gov.bd। জাতী"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

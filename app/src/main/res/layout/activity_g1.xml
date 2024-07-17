@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".G1">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/blue">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back"
+                />
+
+            <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/textView"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="গফরগাঁও পরিচয়"
+                android:textStyle="bold"
+                android:fontFamily="@font/regular"
+                android:textSize="20sp"/>
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/regular"
+                android:text="গফরগাঁও উপজেলা বাংলাদেশের ময়মনসিংহ জেলার একটি প্রশাসনিক এলাকা। তাছাড়া পল্লি কবি জসীম উদ্দিন এর নকশী কাঁথার মাঠ এ জায়গাকে নিয়ে রচিত। এছাড়াও গফরগাঁও বেগুন এর জন্য দেশব্যাপী বিখ্যাত।
+
+অবস্থান
+ময়মনসিংহ জেলা সদর থেকে রেলপথে ও সড়কপথে গফরগাঁও উপজেলা সদরের দূরত্ব ৩৯ কিলোমিটার এবং রাজধানীর ঢাকা থেকে ৮৬ কিলোমিটার। গফরগাঁও-এর বুক চিরে রেল পথটি বয়ে গেছে রাজধানী ঢাকা থেকে উত্তরাঞ্চলের দিকে, জগন্নাথগঞ্জ ঘাট, বাহাদুরাবাদ ঘাটের এবং পূর্বে ঝারিয়া ঝাঁজাইল, মোহনগঞ্জের দিকে। এর উত্তরে ত্রিশাল উপজেলা ও নান্দাইল উপজেলা, দক্ষিণে গাজীপুর জেলার শ্রীপুর উপজেলা ও কাপাসিয়া উপজেলা, পূর্বে নান্দাইল উপজেলা ও কিশোরগঞ্জ জেলার হোসেনপুর উপজেলা, পাকুন্দিয়া উপজেলা, পশ্চিমে ভালুকা উপজেলা। গাফফার খান নামক জনৈক সেনানায়কের নামে 'গফরগাঁও' নামের উৎপত্তি। ধারণা করা হয় মুঘল সেনাপতি রাজা মানসিংহ ও বাংলার বারো ভুঁইয়াদের নেতা ঈসা খানের সম্মুখ যুদ্ধটি ব্রহ্মপুত্র ও শীতলক্ষ্যা নদীর সম্মিলনস্থলে বর্তমান ময়মনসিংহ জেলার গফরগাঁও উপজেলার সম্পূর্ণ দক্ষিণ প্রান্তের বাঁশিয়া গ্রামের মোঘল বাড়ী থেকে টাঙ্গাব গ্রামের সিমানা পর্যন্ত দীর্ঘ হয়। গফরগাঁওয়ের ১৫টি ইউনিয়নের মধ্যে ১৪টি ইউনিয়ন ভাওয়াল পরগনাধীন এবং পূর্বাংশ চর আলগী ইউনিয়ন আঠারবাড়ি জমিদার প্রশাসনের অন্তর্ভুক্ত ছিল।এ অঞ্চল ঐতিহাসিক 'রণভাওয়াল'(গফরগাঁও,ভালুকা,শ্রীপুর ও কাপাসিয়ার অংশবিশেষ তথা ভাওয়ালের উত্তরাংশের প্রাচীন জনপদ)জনপদের অন্যতম গুরুত্বপূর্ণ অঞ্চল। গফরগাঁও থানা ১৮১৩ সালে গঠিত হয়। ১৯১৭ সালে গফরগাঁয়ের পশ্চিমাংশ নিয়ে ভালুকা উপজেলা সৃষ্টি করা হয়। গফরগাঁও উপজেলায় বর্তমানে ১টি পৌরসভা, ২টি থানা ও ১৫টি ইউনিয়ন রয়েছে।[২]
+
+পৌরসভা:
+গফরগাঁও
+ইউনিয়নসমূহ:
+১নং রসুলপুর
+২নং বারবাড়িয়া
+৩নং চর আলগী
+৪নং সালটিয়া
+৫নং যশরা
+৬নং রাওনা
+৮নং গফরগাঁও
+৭নং মশাখালী
+৯নং পাঁচবাগ
+১০নং উস্থি
+১১নং লংগাইর
+১২নং পাইথল
+১৩নং দত্তেরবাজার
+১৪নং নিগুয়ারী
+১৫নং টাংগাব
+গফরগাঁও উপজেলায় দুইটি রেলওয়ে স্টেশন রয়েছে। একটি গফরগাঁও রেলওয়ে স্টেশন অপরটি হলো মশাখালী রেলওয়ে স্টেশন। "
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

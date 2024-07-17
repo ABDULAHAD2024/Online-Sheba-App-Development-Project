@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F1">
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/blue">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back"
+                />
+
+            <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/textView"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ফুলপুর পরিচয়"
+                android:textStyle="bold"
+                android:fontFamily="@font/regular"
+                android:textSize="20sp"/>
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/regular"
+                android:text="ফুলপুর বাংলাদেশের ময়মনসিংহ জেলার অন্তর্গত একটি উপজেলা। এটিই ময়মনসিংহ বিভাগের সবচেয়ে বড় উপজেলা।
+
+অবস্থান ও আয়তন
+উত্তরে হালুয়াঘাট উপজেলা ও ধোবাউড়া উপজেলা, দক্ষিণে ময়মনসিংহ সদর উপজেলা, পূর্বে গৌরীপুর উপজেলা ও নেত্রকোণা জেলার পূর্বধলা উপজেলা, পশ্চিমে শেরপুর জেলার নকলা উপজেলা অবস্থিত।
+
+প্রশাসনিক এলাকা
+ফুলপুর উপজেলায় বর্তমানে ১টি পৌরসভা ও ১০টি ইউনিয়ন রয়েছে। সম্পূর্ণ উপজেলার প্রশাসনিক কার্যক্রম ফুলপুর থানার আওতাধীন।[২]
+
+পৌরসভা:
+ফুলপুর
+ইউনিয়নসমূহ:
+১নং ছনধরা
+২নং রামভদ্রপুর
+৩নং ভাইটকান্দি
+৪নং সিংহেশ্বর
+৫নং ফুলপুর
+৬নং পয়ারী
+৭নং রহিমগঞ্জ
+৮নং রূপসী
+৯নং বালিয়া
+১০নং বওলা
+জনসংখ্যার উপাত্ত
+২০১১ সালের আদমশুমারী অনুযায়ী মোট জনসংখ্যা ৩,১৫,২৭২ জন। এর মধ্যে পুরুষ ১,৫৫,৮০১ জন এবং মহিলা ১,৫৯,৪১৭ জন।
+
+নদীসমূহ
+ফুলপুর উপজেলায় অনেকগুলো নদী আছে। সেগুলো হচ্ছে:
+
+কংস নদী
+খাড়িয়া নদী
+দেয়ার নদী
+ভোগাই নদী
+বান্দসা নদী
+মালিঝি নদী
+ধলাই নদী
+কাকুড়িয়া নদী
+সোয়াইন নদী
+দেওর নদী
+[৩][৪]
+
+উল্লেখযোগ্য ব্যক্তিত্ব
+মুজিবুর রহমান খান ফুলপুরী, (১৮৮৯ - ৫ জানুয়ারি, ১৯৬৯) ছিলেন ময়মনসিংহের একজন সাংবাদিক ও রাজনৈতিক কর্মী।
+শরীফ আহমেদ, বাংলাদেশের একজন রাজনীতিবিদ, সমাজকল্যাণ মন্ত্রণালয়ের প্রতিমন্ত্রী।
+আবুল বাসার আকন্দ, একজন রাজনীতিবিদ, মুক্তিযোদ্ধা আইননজীবী ও সাবেক সংসদ সদস্য।
+জিল্লুর রহমান (চলচ্চিত্র পরিচালক)
+মোঃ শামসুল হক, ভাষা সৈনিক, রাজনীতিবিদ ও সাবেক সংসদ সদস্য
+রকিবুল হাসান , অনুর্ধ-১৯ ক্রিকেট বিশ্বকাপ জয়ী ক্রিকেটার
+ঐতিহাসিক স্থান
+সর্চাপুর মুক্তিযোদ্ধা স্মৃতিসৌধ, সদর
+ঐতিহাসিক সরচাপুর গোদারাঘাট
+নীলগঞ্জ বধ্যভূমি, ভাইটকান্দি
+আরও দেখুন
+ময়মনসিংহ জেলা;
+ময়মনসিংহ বিভাগ;
+বাংলাদেশের উপজেলাসমূহ।
+তথ্যসূত্র
+ বাংলাদেশ জাতীয় তথ্য বাতায়ন (জুন ২০১৪)। এক নজরে ফুলপুর উপজেলা । গণপ্রজাতন্ত্রী বাংলাদেশ সরকার। ৫ আগস্ট ২০১৫ তারিখে মূল থেকে আর্কাইভ করা। সংগ্রহের তারিখ ১০ জুলাই ২০১৫।
+            ইউনিয়নসমূহ - ফুলপুর উপজেলা । phulpur.mymensingh.gov.bd। জাতীয় তথ্য বাতায়ন। ৮ আগস্ট ২০২০ তারিখে মূল থেকে আর্কাইভ করা। সংগ্রহের তারিখ ১৬ ডিসেম্বর ২০২০।
+            ড. অশোক বিশ্বাস, বাংলাদেশের নদীকোষ, গতিধারা, ঢাকা, ফেব্রুয়ারি ২০১১, পৃষ্ঠা ৪০০, আইএসবিএন ৯৭৮-৯৮৪-৮৯৪৫-১৭-৯।
+            মানিক মোহাম্মদ রাজ্জাক (ফেব্রুয়ারি ২০১৫)। বাংলাদেশের নদনদী: বর্তমান গতিপ্রকৃতি। ঢাকা: কথাপ্রকাশ। পৃষ্ঠা ৬০৭। আইএসবিএন 984-70120-0436-4।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

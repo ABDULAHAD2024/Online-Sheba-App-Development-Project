@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:background="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/blue">
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_menu_24"
+                    android:tint="@color/white"/>
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/textView"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" আমার ময়মনসিংহ"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/regular"
+                    android:textSize="20sp"/>
+
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F4F2F2"
+            android:layout_below="@+id/toolbar"
+            android:visibility="visible"
+            >
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:id="@+id/marqe"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginVertical="5dp"
+                android:background="#EFEDED"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:background="#E91E63"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="নোটিশ"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:background="@color/blue"
+                    android:id="@+id/mywidget"
+                    android:fontFamily="@font/regular"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:padding="3dp"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textColor="#FFFFFF"
+                    android:text="         আসসালামু আলাইকুম। প্রিয় ময়মনসিংহ বাসী আমাদের এই অনলাইন সেবামূলক অ্যাপটিতে যুক্ত হওয়ার জন্য আপনাদের সবাইকে জানাই স্বাগতম। আপনাদের সুবিধার কথা চিন্তা করে ময়মনসিংহ জেলার জন্য এই অনলাইন সেবামূলক অ্যাপটি তৈরি করা। অ্যাপটি ব্যবহার করে আপনার কেমন লাগছে সেটা আমাদের সাথে শেয়ার করতে পারেন" />
+
+            </LinearLayout>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/marqe"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+            <RelativeLayout
+                android:id="@+id/Header"
+                android:layout_margin="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_below="@+id/marqe"
+                android:orientation="vertical"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="2dp"
+                    app:cardCornerRadius="10dp"
+                    android:padding="2dp"
+                    app:cardElevation="5dp">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/image_slider"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:iss_auto_cycle="true"
+                        app:iss_delay="0"
+                        app:iss_period="3000"
+                        app:iss_text_align="CENTER"
+                        app:iss_title_background="@color/grey_font"
+                        tools:ignore="MissingClass" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_marginTop="5dp"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="10dp"
+                       app:cardCornerRadius="5dp"
+                       android:layout_width="match_parent"
+                       android:layout_height="40dp">
+
+                       <LinearLayout
+                           android:id="@+id/textL"
+                           android:background="#F8F8FB"
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_below="@+id/Header">
+
+                           <ImageView
+                               android:layout_marginLeft="5dp"
+                               android:layout_gravity="center_vertical"
+                               android:src="@drawable/arow"
+                               android:layout_width="30dp"
+                               android:layout_height="30dp"/>
+
+                           <TextView
+                               android:layout_marginTop="1dp"
+                               android:layout_gravity="center"
+                               android:padding="6dp"
+                               android:layout_marginLeft="5dp"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textSize="18sp"
+                               android:text="ময়মনসিংহ জেলা সম্পের্ক "
+                               android:fontFamily="@font/regular"
+                               android:textStyle="bold"
+                               android:textColor="@color/black"
+                               />
+
+
+
+                       </LinearLayout>
+
+                       
+                   </androidx.cardview.widget.CardView>
+
+                    <GridLayout
+                        android:layout_marginTop="2dp"
+                        android:columnCount="3"
+                        android:rowCount="1"
+                        android:alignmentMode="alignMargins"
+                        android:columnOrderPreserved="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginHorizontal="10dp"
+                        >
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/porichoy"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/house"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="পরিচয়"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/etihas"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/history"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="ইতিহাস"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/jonopotinidi"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/technology"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="অন্যান্য"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </GridLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <LinearLayout
+                            android:background="#F8F8FB"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/Header">
+
+                            <ImageView
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/arow"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"/>
+
+                            <TextView
+                                android:layout_marginTop="1dp"
+                                android:layout_gravity="center"
+                                android:padding="6dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:text="নাগরিক সেবাসমুহ"
+                                android:fontFamily="@font/regular"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                />
+
+
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <GridLayout
+                        android:layout_marginTop="2dp"
+                        android:columnCount="3"
+                        android:rowCount="2"
+                        android:alignmentMode="alignMargins"
+                        android:columnOrderPreserved="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginHorizontal="10dp"
+                        >
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/seba1"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/number"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="জরুরি নাম্বার"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/seba2"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/hours_support"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="জরুরি সেবা"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/seba3"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/hours_support"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="সরকারি তথ্য"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/seba4"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/sim"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="সিমের কোড"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/seba5"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/iconsfiretruck"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="ফায়ার সার্ভিস"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/seba6"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/iconsambulance"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="এ্যাম্বুলেন্স"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+
+                    </GridLayout>
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_margin="11dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="10dp">
+
+                        <Button
+                            android:id="@+id/allseba"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/btn_bg"
+                            android:text="সকল সেবা পেতে ক্লিক করুন"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/regular"/>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <LinearLayout
+                            android:background="#F8F8FB"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/Header">
+
+                            <ImageView
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/arow"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"/>
+
+                            <TextView
+                                android:layout_marginTop="1dp"
+                                android:layout_gravity="center"
+                                android:padding="6dp"
+                                android:paddingRight="2dp"
+                                android:paddingLeft="2dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:text="অ্যাপ সম্পর্কে তথ্য"
+                                android:fontFamily="@font/regular"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                />
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <GridLayout
+                        android:layout_marginTop="2dp"
+                        android:columnCount="3"
+                        android:rowCount="1"
+                        android:alignmentMode="alignMargins"
+                        android:columnOrderPreserved="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginHorizontal="10dp"
+                        >
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/person"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/man"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="সম্পর্কে"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/share"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/sharea"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="শেয়ার করুন"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/rate"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:backgroundTint="@color/white"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/review"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/regular"
+                                    android:text="রেটিং দিন"
+                                    android:textAlignment="center"
+                                    android:textColor="#353434"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </GridLayout>
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout >
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        app:menu="@menu/navigation_item"
+        app:headerLayout="@layout/header"
+        android:layout_gravity="start"
+        android:theme="@style/NavigationView"
+
+        />
+
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
